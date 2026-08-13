@@ -146,6 +146,12 @@ The Power BI dashboard provides an **interactive view of road accident and casua
 * **Locations**
 * **Other Accident-Related Factors**
 
+📊 Dashboard
+
+The interactive Power BI dashboard is available in the `POWER BI` folder.
+
+📁 [View Dashboard Screenshot](Screenshots/Dashboard%20Screenshot.png)
+
 ## 🔄 Project Workflow
 
 ```text

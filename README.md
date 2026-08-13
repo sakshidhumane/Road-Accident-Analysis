@@ -151,13 +151,14 @@ The Power BI dashboard provides an **interactive view of road accident and casua
 Add your dashboard screenshot here:
 
 ```text
-Screenshots/Dashboard Screenshot.png
+![Uploading Dashboard Screenshot.png…]()
+
 ```
 
 To display the image in GitHub, use:
 
 ```markdown
-![Road Accident Analysis Dashboard](Screenshots/Dashboard%20Screenshot.png)
+
 ```
 
 ---

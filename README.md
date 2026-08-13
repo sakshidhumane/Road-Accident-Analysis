@@ -146,12 +146,6 @@ The Power BI dashboard provides an **interactive view of road accident and casua
 * **Locations**
 * **Other Accident-Related Factors**
 
-### 📷 Dashboard Preview
-
-Add your dashboard screenshot here:
-
-<img width="1352" height="753" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/2576da6a-0772-46a9-8581-370329e9538d" />
-
 ## 🔄 Project Workflow
 
 ```text

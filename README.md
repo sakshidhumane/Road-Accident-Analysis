@@ -1,153 +1,170 @@
-🚗 Road Accident Analysis Dashboard
+# 🚗 Road Accident Analysis Dashboard
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project analyzes road accident data to identify patterns and trends in accidents and casualties.
-The project uses **SQL Server, Microsoft Excel, and Power BI** to perform data analysis and create an interactive dashboard. SQL queries were used to calculate key accident and casualty metrics, while Power BI was used to present the results through interactive visualizations.
-The dataset contains **307,973 accident records** with information related to accident severity, casualties, vehicles, road conditions, weather, light conditions, location, and other accident-related factors.
+This project analyzes **road accident data** to identify patterns and trends in accidents and casualties.
 
-🎯 Project Objectives
+The project uses **Microsoft Excel, SQL Server (SSMS), and Power BI** to analyze accident records and present the results through an **interactive dashboard**.
 
-The main objectives of this project are to:
+The SQL analysis supports the Power BI dashboard by calculating key accident and casualty metrics.
 
-* Analyze total accidents and casualties
-* Analyze casualties by accident severity
-* Compare current-year and previous-year casualty trends
-* Analyze casualties by vehicle type
-* Analyze casualties by road type
-* Compare casualties in urban and rural areas
-* Analyze casualties under different light conditions
+---
+
+## 🎯 Project Objectives
+
+* Analyze **total accidents and casualties**
+* Analyze casualties by **accident severity**
+* Analyze casualties by **vehicle type**
+* Analyze casualties by **road type**
+* Compare casualties in **urban and rural areas**
+* Analyze casualties by **light conditions**
+* Analyze **monthly casualty trends**
 * Identify locations with higher numbers of casualties
-* Understand patterns in road accident data
-* Present the analysis through an interactive Power BI dashboard
+* Present accident and casualty insights through **Power BI**
 
-🛠️ Tools & Technologies
+---
 
-* Microsoft Excel – Dataset and initial data handling
-* SQL Server / SSMS – Data analysis and SQL queries
-* Power BI – Interactive dashboard and data visualization
-* GitHub – Project documentation and version control
+## 🛠️ Tools & Technologies
 
-📊 Dataset
+* **Microsoft Excel**
+* **SQL Server / SSMS**
+* **Microsoft Power BI**
+* **GitHub**
 
-Dataset: Road Accident Data.xlsx
+---
 
-The dataset contains **307,973 records and 21 columns**.
+## 📊 Dataset
 
-Key columns include:
+**Dataset:** `Road Accident Data.xlsx`
+
+**SQL Table:** `road_accident`
+
+The dataset contains accident-related information including severity, casualties, vehicles, road conditions, weather, light conditions, location, and other factors.
+
+### Key Columns
 
 * Accident Index
 * Accident Date
-* Day of Week
-* Junction Control
-* Junction Detail
 * Accident Severity
-* Latitude
-* Longitude
-* Light Conditions
-* Local Authority
-* Carriageway Hazards
 * Number of Casualties
 * Number of Vehicles
-* Police Force
-* Road Surface Conditions
-* Road Type
-* Speed Limit
-* Time
-* Urban or Rural Area
-* Weather Conditions
 * Vehicle Type
+* Road Type
+* Road Surface Conditions
+* Light Conditions
+* Weather Conditions
+* Urban or Rural Area
+* Local Authority
+* Speed Limit
+* Latitude
+* Longitude
+* Police Force
 
-🔍 SQL Analysis
+---
 
-The SQL analysis was performed using the `road_accident` table.
+## 🔍 SQL Analysis
 
-The queries calculate and analyze:
+SQL Server was used to analyze accident and casualty patterns.
 
-1. CY Casualties
+### Key Analysis Performed
 
-Calculates total casualties for the year 2022.
+**1. CY Casualties**
 
-2. Casualties on Dry Road Surfaces
+Calculated total casualties for **2022**.
 
-Analyzes casualties where the road surface condition was recorded as dry.
+**2. Casualties on Dry Road Surface**
 
-3. CY Accidents
+Analyzed casualties where the road surface condition was **Dry**.
 
-Calculates the number of distinct accidents during 2022.
+**3. CY Accidents**
 
-4. Fatal Casualties
+Calculated the number of **distinct accidents** during 2022.
 
-Calculates casualties associated with fatal accidents.
+**4. CY Fatal Casualties**
 
-5. Serious Casualties
+Calculated casualties associated with **Fatal** accidents.
 
-Calculates casualties associated with serious accidents.
+**5. CY Serious Casualties**
 
-6. Slight Casualties
+Calculated casualties associated with **Serious** accidents.
 
-Calculates casualties associated with slight accidents.
+**6. CY Slight Casualties**
 
-7. Casualties by Vehicle Type
+Calculated casualties associated with **Slight** accidents.
 
-Vehicle types are grouped into categories such as:
+**7. Casualties by Vehicle Type**
 
-* Agricultural
-* Cars
-* Bike
-* Bus
-* Van
-* Other
+Vehicle types were grouped into categories:
 
-This grouping is then used to analyze casualties by vehicle category.
+* **Agricultural**
+* **Cars**
+* **Bike**
+* **Bus**
+* **Van**
+* **Other**
 
-8. Monthly Casualty Trend
+**8. Monthly Casualty Trend**
 
-Compares monthly casualty totals for 2022 and 2021.
+Compared monthly casualty totals for **2022 and 2021**.
 
-9. Casualties by Road Type
+**9. Casualties by Road Type**
 
-Analyzes casualties across different road types.
+Analyzed casualties across different road types.
 
-10. Casualties by Urban/Rural Area
+**10. Casualties by Urban/Rural Area**
 
-Calculates the percentage distribution of casualties between urban and rural areas.
+Calculated the percentage distribution of casualties between **urban and rural areas**.
 
-11. Casualties by Light Conditions
+**11. Casualties by Light Conditions**
 
-Light conditions are grouped into:
+Grouped light conditions into:
 
-* Day
-* Night
+* **Day**
+* **Night**
 
-The percentage of casualties under each condition is then calculated.
+and calculated the percentage of casualties.
 
-12. Casualties by Location
+**12. Casualties by Location**
 
-Analyzes casualties by local authority and orders locations by total casualties.
+Analyzed casualties by **local authority** and ranked locations based on total casualties.
 
-The SQL documentation contains the complete queries used for these analyses.
+---
 
-📈 Power BI Dashboard
+## 📈 Power BI Dashboard
 
-The Power BI dashboard presents the analysis through interactive visualizations.
+The Power BI dashboard provides an **interactive view of road accident and casualty analysis**.
 
-The dashboard is designed to help users explore:
+### Dashboard Analysis Includes
 
-* Accident and casualty metrics
-* Accident severity
-* Vehicle categories
-* Monthly trends
-* Road types
-* Urban vs. rural areas
-* Light conditions
-* Locations
-* Other accident-related factors
+* **Total Accident & Casualty Metrics**
+* **Accident Severity**
+* **Vehicle Categories**
+* **Monthly Casualty Trends**
+* **Road Types**
+* **Urban vs. Rural Areas**
+* **Light Conditions**
+* **Locations**
+* **Other Accident-Related Factors**
 
-The Power BI dashboard is available in the `PowerBI` folder.
+### 📷 Dashboard Preview
 
-🔄 Project Workflow
+Add your dashboard screenshot here:
 
+```text
+Screenshots/Dashboard Screenshot.png
+```
+
+To display the image in GitHub, use:
+
+```markdown
+![Road Accident Analysis Dashboard](Screenshots/Dashboard%20Screenshot.png)
+```
+
+---
+
+## 🔄 Project Workflow
+
+```text
 Road Accident Dataset
         ↓
 Microsoft Excel
@@ -156,82 +173,95 @@ SQL Server / SSMS
         ↓
 SQL Analysis
         ↓
-Key Accident & Casualty Metrics
+Accident & Casualty Metrics
         ↓
 Power BI
         ↓
 Interactive Dashboard
         ↓
-Insights & Analysis
+Insights
+```
 
-The documented workflow follows loading the dataset into SQL Server, using the `road_accident` table, running SQL queries, using the results to support the Power BI dashboard, and presenting findings through interactive visualizations.
+---
 
-📁 Repository Structure
+## 📁 Repository Structure
 
+```text
 Road-Accident-Analysis/
-│
-├── README.md
 │
 ├── Dataset/
 │   └── Road Accident Data.xlsx
 │
-├── PowerBI/
-│   └── Road Accidents Analysis Dashboard.pbix
+├── POWER BI/
+│   └── Road_Accidents_Analysis_Dashboard.pbix
 │
 ├── SQL/
-│   └── SQL Queries.docx
+│   └── SQL Queries Documentation.docx
 │
-└── Screenshots/
-    └── Road Accident Dashboard.png
+├── Screenshots/
+│   └── Dashboard Screenshot.png
+│
+└── README.md
+```
 
-💡 Key Skills Demonstrated
+---
 
-* SQL querying
-* Data analysis
-* Data aggregation
-* Data transformation
-* Data categorization
-* Power BI dashboard development
-* Data visualization
-* Excel data handling
-* Business-oriented analysis
-* Analytical problem solving
+## 💡 Skills Demonstrated
 
-📚 Documentation
+* **SQL Querying**
+* **Data Analysis**
+* **Data Aggregation**
+* **Data Transformation**
+* **Data Categorization**
+* **Power BI Dashboard Development**
+* **Data Visualization**
+* **Excel Data Handling**
+* **Analytical Problem Solving**
 
-The SQL folder contains the complete SQL Queries Documentation used in this project.
+---
 
-The documentation includes the SQL analysis for accident and casualty metrics and explains how the query results support the Power BI dashboard.
+## 📚 Documentation
 
-📂 Project Files
+The **SQL Queries Documentation** contains the SQL queries used for the Road Accident Analysis project.
 
-| File                                     | Description                            |
-| ---------------------------------------- | -------------------------------------- |
-| `Road Accident Data.xlsx`                | Original road accident dataset         |
-| `Road Accidents Analysis Dashboard.pbix` | Interactive Power BI dashboard         |
-| `SQL Queries.docx`                       | SQL analysis queries and documentation |
-| `Road Accident Dashboard.png`            | Dashboard preview                      |
-| `README.md`                              | Project documentation                  |
+The analysis includes:
 
-🎓 What I Learned
+* Accident and casualty metrics
+* Accident severity
+* Vehicle categories
+* Monthly trends
+* Road types
+* Urban/Rural analysis
+* Light conditions
+* Location-based casualty analysis
 
-Through this project, I strengthened my ability to:
+---
 
-* Work with a large real-world dataset
-* Analyze accident and casualty data using SQL
-* Create meaningful categories for analysis
-* Calculate percentages and aggregated metrics
-* Build interactive Power BI dashboards
-* Convert raw data into meaningful visual insights
-* Organize and document an end-to-end data analytics project
+## 🎓 What I Learned
 
-👩‍💻 Author
+Through this project, I developed practical experience in:
 
- Sakshi Dhumane
+* Working with a **large real-world dataset**
+* Writing **SQL queries** for data analysis
+* Calculating accident and casualty metrics
+* Grouping and categorizing data
+* Performing percentage-based analysis
+* Building **interactive Power BI dashboards**
+* Creating meaningful data visualizations
+* Presenting analytical findings clearly
+* Documenting an **end-to-end data analytics project**
 
-Aspiring Data Analyst
+---
 
-Skills: SQL | Power BI | Excel | Python | Tableau | Data Analytics
+## 👩‍💻 Author
 
-⭐ If you find this project useful, feel free to explore the repository and the Power BI dashboard.
+### **Sakshi Dhumane**
+
+**Aspiring Data Analyst**
+
+**Skills:** SQL | Power BI | Excel | Python | Tableau | Data Analytics
+
+---
+
+⭐ **If you find this project useful, feel free to explore the repository.**
 
